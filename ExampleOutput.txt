@@ -1,0 +1,77 @@
+
+C:\Users\David\SoftwareDevelopment\repositories\Python\PlanetLabs\DKSPlanetLabsPythonCodingSample>python DKSPlanetLabsPythonCodingSample.py
+
+This is my first python script, it was written using Python 3.4 on Windows 10.
+This script uses a local copy of the dictionay that was stored at /etc/dictionaries-common/words (symlinked to /usr/share/dict from an Ubuntu 15.04 virtual machine.
+The dictionary file contains just under 100000 words will be handled by this script.
+
+Assumptions made by this program:
+1. Words from the dictionary that start with a capital letter (proper names and other junk at the start of the file) are ignored.
+2. Characters with accents are stripped of their accents (ex. Angstrom, eclair).
+3. Words that end with "'s" (any word that has a possessive form) are ignored.
+4. Words that contain less than 4 characters are ignored.
+5. The input file is alphabetized to maintain table insertion function simplicity and to keep the Big-O time from getting out of control.
+6. The input file has one word per line (i.e. is \n delimited).
+
+Reading input file (start time: 2015-10-07 23:15:37)...
+
+Sorting the results (start time: 2015-10-07 23:36:16)...
+
+Results of running this script on the included dictionary file (start time: 2015-10-07 23:36:17):
+abet, bate, beat, beta
+bast, bats, stab, tabs
+acts, cast, cats, scat
+dale, deal, lade, lead
+leap, pale, peal, plea
+ales, leas, sale, seal
+amen, mane, mean, name
+mate, meat, tame, team
+pare, pear, rape, reap
+ares, ears, eras, sear, sera
+east, eats, sate, seat, teas
+lair, liar, lira, rail
+last, lats, salt, slat
+naps, pans, snap, span
+pars, raps, rasp, spar
+part, rapt, tarp, trap
+asps, pass, saps, spas
+past, pats, spat, taps
+arts, rats, star, tars, tsar
+bust, buts, stub, tubs
+diet, edit, tide, tied
+evil, live, veil, vile
+emit, item, mite, time
+nope, open, peon, pone
+eons, noes, nose, ones
+nest, nets, sent, tens
+ores, roes, rose, sore
+rues, ruse, sure, user
+gnus, guns, snug, sung
+huts, shut, thus, tush
+oils, silo, soil, soli
+nips, pins, snip, spin
+opts, post, pots, spot, stop, tops
+bares, baser, bears, saber, sabre
+abets, baste, bates, beast, beats, betas
+arced, cadre, cared, cedar, raced
+caret, cater, crate, react, recta, trace
+hares, hears, rheas, share, shear
+skate, stake, steak, takes, teaks
+lapse, leaps, pales, peals, pleas, sepal
+least, slate, stale, steal, tales, teals
+mates, meats, steam, tames, teams
+pares, parse, pears, rapes, reaps, spare, spear
+paste, pates, septa, spate, tapes
+aster, rates, stare, tares, tears
+parts, sprat, strap, tarps, traps
+ester, reset, steer, terse, trees
+emits, items, mites, smite, times
+reins, resin, rinse, risen, siren
+pores, poser, prose, ropes, spore
+carets, caster, caters, crates, reacts, recast, traces
+drapes, padres, parsed, rasped, spared, spread
+palest, pastel, petals, plates, pleats, staple
+
+End time: 2015-10-07 23:36:17
+
+C:\Users\David\SoftwareDevelopment\repositories\Python\PlanetLabs\DKSPlanetLabsPythonCodingSample>
